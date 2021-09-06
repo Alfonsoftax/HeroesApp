@@ -1,19 +1,171 @@
 {
-  "posts": [
+  "usuarios": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "usuario": "SoftAX",
+      "email": "softax@gmail.com"
     }
   ],
-  "comments": [
+  "heroes": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "claudio-bravo",
+      "superhero": "ClaudioBravo",
+      "publisher": "Real Betis",
+      "alter_ego": "Rui Silva",
+      "first_appearance": "Real Sociedad",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "rui-silva",
+      "superhero": "Rui Silva",
+      "publisher": "Real Betis",
+      "alter_ego": "Claudio Bravo",
+      "first_appearance": "Granada",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "marc-bartra",
+      "superhero": "Marc Bartra",
+      "publisher": "Real Betis",
+      "alter_ego": "Victor Ruiz",
+      "first_appearance": "FC Barcelona",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "victor-ruiz",
+      "superhero": "Victor Ruiz",
+      "publisher": "Real Betis",
+      "alter_ego": "Marc Bartra",
+      "first_appearance": "Villareal",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "juan-miranda",
+      "superhero": "Juan Miranda",
+      "publisher": "Real Betis",
+      "alter_ego": "Montoya",
+      "first_appearance": "Real Betis Deportivo",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "montoya",
+      "superhero": "Montoya",
+      "publisher": "Real Betis",
+      "alter_ego": "Bellerín",
+      "first_appearance": "FC Barcelona",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "hector-bellerín",
+      "superhero": "Hector Bellerín",
+      "publisher": "Real Betis",
+      "alter_ego": "Montoya, Sabaly",
+      "first_appearance": "Arsenal",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "edgar",
+      "superhero": "Edgar",
+      "publisher": "Real Betis",
+      "alter_ego": "Pezzella",
+      "first_appearance": "Real Betis Deportivo",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "german-pezzella",
+      "superhero": "Germán Pezzella",
+      "publisher": "Real Betis",
+      "alter_ego": "Edgar",
+      "first_appearance": "River Plate",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "nabil-fekir",
+      "superhero": "Nabil Fekir",
+      "publisher": "Real Betis",
+      "alter_ego": "Sergio Canales",
+      "first_appearance": "Olimpyque du Lyon",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "sergio-canales",
+      "superhero": "Sergio Canales",
+      "publisher": "Real Betis",
+      "alter_ego": "Nabil Fekir",
+      "first_appearance": "Recing CF",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "guido-rodriguez",
+      "superhero": "Guido Rodriguez",
+      "publisher": "Real Betis",
+      "alter_ego": "William Carvalho",
+      "first_appearance": "América",
+      "characters": "Manuel Pellegrini"
+    },
+    {
+      "id": "dani-ceballos",
+      "superhero": "Dani Ceballos",
+      "publisher": "out",
+      "alter_ego": "Fabian",
+      "first_appearance": "Real betis Deportivo",
+      "characters": "Carlo Anccelotti"
+    },
+    {
+      "id": "fabian",
+      "superhero": "Fabian",
+      "publisher": "out",
+      "alter_ego": "Dani Ceballos",
+      "first_appearance": "Real Betis Deportivo",
+      "characters": "Gattusso"
+    },
+    {
+      "id": "gio-lo-celso",
+      "superhero": "Gio Lo Celso",
+      "publisher": "out",
+      "alter_ego": "Camarasa",
+      "first_appearance": "Paris Saint Germain",
+      "characters": "Nuno Espírito Santo"
+    },
+    {
+      "id": "emerson-royal",
+      "superhero": "Emerson Royal",
+      "publisher": "out",
+      "alter_ego": "Montoya",
+      "first_appearance": "Real Betis",
+      "characters": "Nuno Espírito Santo"
+    },
+    {
+      "id": "sidnei",
+      "superhero": "Sidnei",
+      "publisher": "out",
+      "alter_ego": "Victor Ruiz",
+      "first_appearance": "Deportivo a Coruña",
+      "characters": "sin entrenador"
+    },
+    {
+      "id": "salva-sevilla",
+      "superhero": "Salva Sevilla",
+      "publisher": "out",
+      "alter_ego": "Petros",
+      "first_appearance": "Salamanca",
+      "characters": "Luis García Plaza"
+    },
+    {
+      "id": "adan",
+      "superhero": "Adán",
+      "publisher": "out",
+      "alter_ego": "Joel Robles",
+      "first_appearance": "Real Madrid Castilla",
+      "characters": "Diego Pablo Simeone"
+    },
+    {
+      "id": "francis",
+      "superhero": "Francis",
+      "publisher": "out",
+      "alter_ego": "Alex Moreno",
+      "first_appearance": "Real Betis Deportivo",
+      "characters": "Sin entrenador"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
