@@ -9,18 +9,10 @@
   "heroes": [
     {
       "id": "claudio-bravo",
-      "superhero": "ClaudioBravo",
+      "superhero": "Claudio Bravo",
       "publisher": "Real Betis",
       "alter_ego": "Rui Silva",
       "first_appearance": "Real Sociedad",
-      "characters": "Manuel Pellegrini"
-    },
-    {
-      "id": "rui-silva",
-      "superhero": "Rui Silva",
-      "publisher": "Real Betis",
-      "alter_ego": "Claudio Bravo",
-      "first_appearance": "Granada",
       "characters": "Manuel Pellegrini"
     },
     {
@@ -166,15 +158,6 @@
       "alter_ego": "Alex Moreno",
       "first_appearance": "Real Betis Deportivo",
       "characters": "Sin entrenador"
-    },
-    {
-      "superhero": "Alfonso",
-      "alter_ego": "Hidalgo",
-      "publisher": "realBetis",
-      "first_appearance": "",
-      "alt_img": "",
-      "characters": "",
-      "id": "bjRhRfC"
     }
   ]
 }

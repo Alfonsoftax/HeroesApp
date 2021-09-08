@@ -1,4 +1,10 @@
-<h1>Nuevo Futbolista <small>{{heroe.superhero}}</small></h1>
+<h1>
+    {{
+        (heroe.id) ? 'Editar' :'Nuevo'
+    }} 
+    Futbolista 
+    <small>{{heroe.superhero}}</small>
+</h1>
 
 <div fxLayout="row" fxLayoutGap="40px" fxLayout.xs="column">
     <div fxFlex="50" fxLayout="column">
@@ -55,12 +61,24 @@
              [(ngModel)]="heroe.alt_img"
              required>
         </mat-form-field>
+        <div fxLayout>
         <button 
         mat-raised-button 
-        color="warn"
+        color="primary"
         (click)="guardar()">
         <mat-icon>edit</mat-icon>
-        Guardar</button>
+        {{(heroe.id) ? 'Actualizar' :'Crear'}}
+    </button>
+        <span class="spacer"></span>
+       
+            <button *ngIf="heroe.id"
+            mat-raised-button 
+            color="warn"
+            (click)="borrar()">
+                <mat-icon>remove</mat-icon>
+                Borrar
+            </button>
+        </div>
     </div>
 
     
