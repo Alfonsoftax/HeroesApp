@@ -36,7 +36,9 @@
           <mat-icon>menu</mat-icon>
         </button>
          <span class="spacer"></span>    <!--clase que coge todo el espacio disponible desde el último elemento -->
-        <button mat-button>LogOut</button>
+         <span>{{auth.usuario}}</span>
+        <button mat-button
+                (click)="logout()">LogOut</button>
     </mat-toolbar>
 
 
